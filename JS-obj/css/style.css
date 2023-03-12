@@ -1,0 +1,84 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  background-color: gray;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .loginPage {
+  width: 30%;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.container .loginPage input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container .loginPage h6 {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.container .informationPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+}
+
+.container .informationPage .inputPage {
+  width: 30%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 2px solid black;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.container .informationPage .inputPage input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container .informationPage .informationView {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  border: 2px solid black;
+  margin-left: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .informationPage .informationView h1 {
+  margin-left: 100px;
+  color: black;
+}
+
+.container .informationPage .informationView h3 {
+  margin: 30px 10px;
+}
+/*# sourceMappingURL=style.css.map */
